@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		CC9B90D52BA58863004FA698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9B90D42BA58863004FA698 /* AppDelegate.swift */; };
 		CC9B90D72BA58863004FA698 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9B90D62BA58863004FA698 /* SceneDelegate.swift */; };
-		CC9B90D92BA58863004FA698 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9B90D82BA58863004FA698 /* ViewController.swift */; };
-		CC9B90DC2BA58863004FA698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9B90DA2BA58863004FA698 /* Main.storyboard */; };
+		CC9B90D92BA58863004FA698 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9B90D82BA58863004FA698 /* LoginViewController.swift */; };
 		CC9B90DE2BA58865004FA698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC9B90DD2BA58865004FA698 /* Assets.xcassets */; };
 		CC9B90E12BA58865004FA698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9B90DF2BA58865004FA698 /* LaunchScreen.storyboard */; };
+		CC9B90EB2BA58C68004FA698 /* ButtonBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9B90EA2BA58C67004FA698 /* ButtonBuilder.swift */; };
+		CC9B90EE2BA59FF6004FA698 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9B90ED2BA59FF6004FA698 /* Button.swift */; };
+		CC9B90F02BA66CFE004FA698 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9B90EF2BA66CFE004FA698 /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CC9B90D12BA58863004FA698 /* assignmentYoutube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = assignmentYoutube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9B90D42BA58863004FA698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC9B90D62BA58863004FA698 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CC9B90D82BA58863004FA698 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CC9B90DB2BA58863004FA698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC9B90D82BA58863004FA698 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CC9B90DD2BA58865004FA698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC9B90E02BA58865004FA698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC9B90E22BA58865004FA698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC9B90EA2BA58C67004FA698 /* ButtonBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBuilder.swift; sourceTree = "<group>"; };
+		CC9B90ED2BA59FF6004FA698 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		CC9B90EF2BA66CFE004FA698 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,41 @@
 		CC9B90D32BA58863004FA698 /* assignmentYoutube */ = {
 			isa = PBXGroup;
 			children = (
+				CC9B90E82BA58AA0004FA698 /* Login */,
 				CC9B90D42BA58863004FA698 /* AppDelegate.swift */,
 				CC9B90D62BA58863004FA698 /* SceneDelegate.swift */,
-				CC9B90D82BA58863004FA698 /* ViewController.swift */,
-				CC9B90DA2BA58863004FA698 /* Main.storyboard */,
+				CC9B90EC2BA59FA1004FA698 /* UIComponent */,
+				CC9B90E92BA58C3E004FA698 /* Builder */,
 				CC9B90DD2BA58865004FA698 /* Assets.xcassets */,
 				CC9B90DF2BA58865004FA698 /* LaunchScreen.storyboard */,
 				CC9B90E22BA58865004FA698 /* Info.plist */,
 			);
 			path = assignmentYoutube;
+			sourceTree = "<group>";
+		};
+		CC9B90E82BA58AA0004FA698 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CC9B90D82BA58863004FA698 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CC9B90E92BA58C3E004FA698 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				CC9B90EA2BA58C67004FA698 /* ButtonBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		CC9B90EC2BA59FA1004FA698 /* UIComponent */ = {
+			isa = PBXGroup;
+			children = (
+				CC9B90ED2BA59FF6004FA698 /* Button.swift */,
+				CC9B90EF2BA66CFE004FA698 /* UIColor+Extension.swift */,
+			);
+			path = UIComponent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +157,6 @@
 			files = (
 				CC9B90E12BA58865004FA698 /* LaunchScreen.storyboard in Resources */,
 				CC9B90DE2BA58865004FA698 /* Assets.xcassets in Resources */,
-				CC9B90DC2BA58863004FA698 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC9B90D92BA58863004FA698 /* ViewController.swift in Sources */,
+				CC9B90EE2BA59FF6004FA698 /* Button.swift in Sources */,
+				CC9B90F02BA66CFE004FA698 /* UIColor+Extension.swift in Sources */,
+				CC9B90EB2BA58C68004FA698 /* ButtonBuilder.swift in Sources */,
+				CC9B90D92BA58863004FA698 /* LoginViewController.swift in Sources */,
 				CC9B90D52BA58863004FA698 /* AppDelegate.swift in Sources */,
 				CC9B90D72BA58863004FA698 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +179,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CC9B90DA2BA58863004FA698 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CC9B90DB2BA58863004FA698 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CC9B90DF2BA58865004FA698 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +321,7 @@
 				INFOPLIST_FILE = assignmentYoutube/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +349,7 @@
 				INFOPLIST_FILE = assignmentYoutube/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
