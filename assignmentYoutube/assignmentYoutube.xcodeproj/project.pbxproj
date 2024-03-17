@@ -7,17 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC41D53B2BA6BFFB00939197 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC41D53A2BA6BFFB00939197 /* UIColor+Extension.swift */; };
+		CC41D53F2BA6CAAB00939197 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC41D53E2BA6CAAB00939197 /* UIView+Extension.swift */; };
+		CC41D5412BA6CD8000939197 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC41D5402BA6CD8000939197 /* UIFont+Extension.swift */; };
+		CC8BC55C2BA71B7E00848FE2 /* AuthenticationUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8BC55B2BA71B7E00848FE2 /* AuthenticationUIView.swift */; };
+		CC8BC5602BA71F3400848FE2 /* AuthenticationLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8BC55F2BA71F3400848FE2 /* AuthenticationLabel.swift */; };
+		CC8BC5632BA7223C00848FE2 /* CGFloat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8BC5622BA7223C00848FE2 /* CGFloat+Extension.swift */; };
+		CC907A082BA756B5004D58EA /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC8BC5662BA74E0100848FE2 /* Pretendard-Bold.otf */; };
+		CC907A092BA756B8004D58EA /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC8BC5692BA74E0100848FE2 /* Pretendard-Medium.otf */; };
+		CC907A0A2BA756BB004D58EA /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC8BC5672BA74E0100848FE2 /* Pretendard-Regular.otf */; };
+		CC907A0B2BA756BD004D58EA /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC8BC5682BA74E0100848FE2 /* Pretendard-SemiBold.otf */; };
 		CC9B90D52BA58863004FA698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9B90D42BA58863004FA698 /* AppDelegate.swift */; };
 		CC9B90D72BA58863004FA698 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9B90D62BA58863004FA698 /* SceneDelegate.swift */; };
 		CC9B90D92BA58863004FA698 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9B90D82BA58863004FA698 /* LoginViewController.swift */; };
 		CC9B90DE2BA58865004FA698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC9B90DD2BA58865004FA698 /* Assets.xcassets */; };
 		CC9B90E12BA58865004FA698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9B90DF2BA58865004FA698 /* LaunchScreen.storyboard */; };
-		CC9B90EB2BA58C68004FA698 /* ButtonBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9B90EA2BA58C67004FA698 /* ButtonBuilder.swift */; };
-		CC9B90EE2BA59FF6004FA698 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9B90ED2BA59FF6004FA698 /* Button.swift */; };
-		CC9B90F02BA66CFE004FA698 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9B90EF2BA66CFE004FA698 /* UIColor+Extension.swift */; };
+		CC9B90EE2BA59FF6004FA698 /* AuthenticationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9B90ED2BA59FF6004FA698 /* AuthenticationButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC41D53A2BA6BFFB00939197 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		CC41D53E2BA6CAAB00939197 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		CC41D5402BA6CD8000939197 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		CC8BC55B2BA71B7E00848FE2 /* AuthenticationUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationUIView.swift; sourceTree = "<group>"; };
+		CC8BC55F2BA71F3400848FE2 /* AuthenticationLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationLabel.swift; sourceTree = "<group>"; };
+		CC8BC5622BA7223C00848FE2 /* CGFloat+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extension.swift"; sourceTree = "<group>"; };
+		CC8BC5662BA74E0100848FE2 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		CC8BC5672BA74E0100848FE2 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		CC8BC5682BA74E0100848FE2 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		CC8BC5692BA74E0100848FE2 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
 		CC9B90D12BA58863004FA698 /* assignmentYoutube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = assignmentYoutube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9B90D42BA58863004FA698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC9B90D62BA58863004FA698 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,9 +43,7 @@
 		CC9B90DD2BA58865004FA698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC9B90E02BA58865004FA698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC9B90E22BA58865004FA698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC9B90EA2BA58C67004FA698 /* ButtonBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBuilder.swift; sourceTree = "<group>"; };
-		CC9B90ED2BA59FF6004FA698 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
-		CC9B90EF2BA66CFE004FA698 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		CC9B90ED2BA59FF6004FA698 /* AuthenticationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +57,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC41D5392BA6BFE000939197 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				CC41D53A2BA6BFFB00939197 /* UIColor+Extension.swift */,
+				CC41D53E2BA6CAAB00939197 /* UIView+Extension.swift */,
+				CC41D5402BA6CD8000939197 /* UIFont+Extension.swift */,
+				CC8BC5622BA7223C00848FE2 /* CGFloat+Extension.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		CC41D53C2BA6C4DF00939197 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CC9B90D42BA58863004FA698 /* AppDelegate.swift */,
+				CC9B90D62BA58863004FA698 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CC41D53D2BA6C4F900939197 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				CC9B90E82BA58AA0004FA698 /* Login */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		CC8BC5612BA71F3B00848FE2 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				CC9B90ED2BA59FF6004FA698 /* AuthenticationButton.swift */,
+				CC8BC55F2BA71F3400848FE2 /* AuthenticationLabel.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		CC8BC5642BA74D8000848FE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CC8BC5652BA74D9A00848FE2 /* Font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CC8BC5652BA74D9A00848FE2 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				CC8BC5662BA74E0100848FE2 /* Pretendard-Bold.otf */,
+				CC8BC5692BA74E0100848FE2 /* Pretendard-Medium.otf */,
+				CC8BC5672BA74E0100848FE2 /* Pretendard-Regular.otf */,
+				CC8BC5682BA74E0100848FE2 /* Pretendard-SemiBold.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		CC9B90C82BA58863004FA698 = {
 			isa = PBXGroup;
 			children = (
@@ -60,11 +132,11 @@
 		CC9B90D32BA58863004FA698 /* assignmentYoutube */ = {
 			isa = PBXGroup;
 			children = (
-				CC9B90E82BA58AA0004FA698 /* Login */,
-				CC9B90D42BA58863004FA698 /* AppDelegate.swift */,
-				CC9B90D62BA58863004FA698 /* SceneDelegate.swift */,
+				CC8BC5642BA74D8000848FE2 /* Resources */,
+				CC41D53D2BA6C4F900939197 /* Scene */,
+				CC41D53C2BA6C4DF00939197 /* App */,
+				CC41D5392BA6BFE000939197 /* Global */,
 				CC9B90EC2BA59FA1004FA698 /* UIComponent */,
-				CC9B90E92BA58C3E004FA698 /* Builder */,
 				CC9B90DD2BA58865004FA698 /* Assets.xcassets */,
 				CC9B90DF2BA58865004FA698 /* LaunchScreen.storyboard */,
 				CC9B90E22BA58865004FA698 /* Info.plist */,
@@ -76,23 +148,15 @@
 			isa = PBXGroup;
 			children = (
 				CC9B90D82BA58863004FA698 /* LoginViewController.swift */,
+				CC8BC55B2BA71B7E00848FE2 /* AuthenticationUIView.swift */,
 			);
 			path = Login;
-			sourceTree = "<group>";
-		};
-		CC9B90E92BA58C3E004FA698 /* Builder */ = {
-			isa = PBXGroup;
-			children = (
-				CC9B90EA2BA58C67004FA698 /* ButtonBuilder.swift */,
-			);
-			path = Builder;
 			sourceTree = "<group>";
 		};
 		CC9B90EC2BA59FA1004FA698 /* UIComponent */ = {
 			isa = PBXGroup;
 			children = (
-				CC9B90ED2BA59FF6004FA698 /* Button.swift */,
-				CC9B90EF2BA66CFE004FA698 /* UIColor+Extension.swift */,
+				CC8BC5612BA71F3B00848FE2 /* Authentication */,
 			);
 			path = UIComponent;
 			sourceTree = "<group>";
@@ -156,7 +220,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC9B90E12BA58865004FA698 /* LaunchScreen.storyboard in Resources */,
+				CC907A082BA756B5004D58EA /* Pretendard-Bold.otf in Resources */,
+				CC907A0A2BA756BB004D58EA /* Pretendard-Regular.otf in Resources */,
+				CC907A0B2BA756BD004D58EA /* Pretendard-SemiBold.otf in Resources */,
 				CC9B90DE2BA58865004FA698 /* Assets.xcassets in Resources */,
+				CC907A092BA756B8004D58EA /* Pretendard-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,11 +235,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC9B90EE2BA59FF6004FA698 /* Button.swift in Sources */,
-				CC9B90F02BA66CFE004FA698 /* UIColor+Extension.swift in Sources */,
-				CC9B90EB2BA58C68004FA698 /* ButtonBuilder.swift in Sources */,
+				CC41D5412BA6CD8000939197 /* UIFont+Extension.swift in Sources */,
+				CC8BC5602BA71F3400848FE2 /* AuthenticationLabel.swift in Sources */,
+				CC9B90EE2BA59FF6004FA698 /* AuthenticationButton.swift in Sources */,
+				CC41D53B2BA6BFFB00939197 /* UIColor+Extension.swift in Sources */,
+				CC8BC5632BA7223C00848FE2 /* CGFloat+Extension.swift in Sources */,
 				CC9B90D92BA58863004FA698 /* LoginViewController.swift in Sources */,
 				CC9B90D52BA58863004FA698 /* AppDelegate.swift in Sources */,
+				CC41D53F2BA6CAAB00939197 /* UIView+Extension.swift in Sources */,
+				CC8BC55C2BA71B7E00848FE2 /* AuthenticationUIView.swift in Sources */,
 				CC9B90D72BA58863004FA698 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
