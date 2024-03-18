@@ -17,6 +17,11 @@
 		CC907A092BA756B8004D58EA /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC8BC5692BA74E0100848FE2 /* Pretendard-Medium.otf */; };
 		CC907A0A2BA756BB004D58EA /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC8BC5672BA74E0100848FE2 /* Pretendard-Regular.otf */; };
 		CC907A0B2BA756BD004D58EA /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC8BC5682BA74E0100848FE2 /* Pretendard-SemiBold.otf */; };
+		CC907A0D2BA7BE85004D58EA /* AuthenticationTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC907A0C2BA7BE85004D58EA /* AuthenticationTextField.swift */; };
+		CC907A0F2BA7C797004D58EA /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC907A0E2BA7C797004D58EA /* SigninViewController.swift */; };
+		CC907A122BA7C80D004D58EA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC907A112BA7C80D004D58EA /* BaseViewController.swift */; };
+		CC907A142BA801D9004D58EA /* DoneAuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC907A132BA801D9004D58EA /* DoneAuthenticationViewController.swift */; };
+		CC907A172BA84A82004D58EA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC907A162BA84A82004D58EA /* MainViewController.swift */; };
 		CC9B90D52BA58863004FA698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9B90D42BA58863004FA698 /* AppDelegate.swift */; };
 		CC9B90D72BA58863004FA698 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9B90D62BA58863004FA698 /* SceneDelegate.swift */; };
 		CC9B90D92BA58863004FA698 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9B90D82BA58863004FA698 /* LoginViewController.swift */; };
@@ -36,6 +41,11 @@
 		CC8BC5672BA74E0100848FE2 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
 		CC8BC5682BA74E0100848FE2 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
 		CC8BC5692BA74E0100848FE2 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		CC907A0C2BA7BE85004D58EA /* AuthenticationTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationTextField.swift; sourceTree = "<group>"; };
+		CC907A0E2BA7C797004D58EA /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		CC907A112BA7C80D004D58EA /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		CC907A132BA801D9004D58EA /* DoneAuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneAuthenticationViewController.swift; sourceTree = "<group>"; };
+		CC907A162BA84A82004D58EA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CC9B90D12BA58863004FA698 /* assignmentYoutube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = assignmentYoutube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9B90D42BA58863004FA698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC9B90D62BA58863004FA698 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +90,8 @@
 		CC41D53D2BA6C4F900939197 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				CC907A152BA84A70004D58EA /* Main */,
+				CC907A102BA7C7ED004D58EA /* Base */,
 				CC9B90E82BA58AA0004FA698 /* Login */,
 			);
 			path = Scene;
@@ -90,6 +102,7 @@
 			children = (
 				CC9B90ED2BA59FF6004FA698 /* AuthenticationButton.swift */,
 				CC8BC55F2BA71F3400848FE2 /* AuthenticationLabel.swift */,
+				CC907A0C2BA7BE85004D58EA /* AuthenticationTextField.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -111,6 +124,22 @@
 				CC8BC5682BA74E0100848FE2 /* Pretendard-SemiBold.otf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		CC907A102BA7C7ED004D58EA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CC907A112BA7C80D004D58EA /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CC907A152BA84A70004D58EA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CC907A162BA84A82004D58EA /* MainViewController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 		CC9B90C82BA58863004FA698 = {
@@ -148,6 +177,8 @@
 			isa = PBXGroup;
 			children = (
 				CC9B90D82BA58863004FA698 /* LoginViewController.swift */,
+				CC907A0E2BA7C797004D58EA /* SigninViewController.swift */,
+				CC907A132BA801D9004D58EA /* DoneAuthenticationViewController.swift */,
 				CC8BC55B2BA71B7E00848FE2 /* AuthenticationUIView.swift */,
 			);
 			path = Login;
@@ -235,13 +266,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC907A122BA7C80D004D58EA /* BaseViewController.swift in Sources */,
+				CC907A0D2BA7BE85004D58EA /* AuthenticationTextField.swift in Sources */,
 				CC41D5412BA6CD8000939197 /* UIFont+Extension.swift in Sources */,
+				CC907A142BA801D9004D58EA /* DoneAuthenticationViewController.swift in Sources */,
 				CC8BC5602BA71F3400848FE2 /* AuthenticationLabel.swift in Sources */,
 				CC9B90EE2BA59FF6004FA698 /* AuthenticationButton.swift in Sources */,
 				CC41D53B2BA6BFFB00939197 /* UIColor+Extension.swift in Sources */,
 				CC8BC5632BA7223C00848FE2 /* CGFloat+Extension.swift in Sources */,
 				CC9B90D92BA58863004FA698 /* LoginViewController.swift in Sources */,
+				CC907A172BA84A82004D58EA /* MainViewController.swift in Sources */,
 				CC9B90D52BA58863004FA698 /* AppDelegate.swift in Sources */,
+				CC907A0F2BA7C797004D58EA /* SigninViewController.swift in Sources */,
 				CC41D53F2BA6CAAB00939197 /* UIView+Extension.swift in Sources */,
 				CC8BC55C2BA71B7E00848FE2 /* AuthenticationUIView.swift in Sources */,
 				CC9B90D72BA58863004FA698 /* SceneDelegate.swift in Sources */,
