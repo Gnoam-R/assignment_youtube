@@ -13,8 +13,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
         let authenticationUIView = AuthenticationUIView()
-        let loginViewController = LoginViewController(view: authenticationUIView)
-        window?.rootViewController = UINavigationController(rootViewController: loginViewController)
+        let viewController = LoginViewController(view: authenticationUIView)
+//        let viewController = SigninViewController(view: authenticationUIView)
+//        let viewController = DoneAuthenticationViewController(view: authenticationUIView)
+        window?.rootViewController = UINavigationController(rootViewController: viewController)
         window?.makeKeyAndVisible()
     }
 }

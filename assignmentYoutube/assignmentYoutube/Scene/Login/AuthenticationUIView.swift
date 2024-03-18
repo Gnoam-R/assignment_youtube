@@ -27,7 +27,7 @@ class AuthenticationUIView {
     
     let subTitleLabel: UILabel = {
         var label = AuthenticationLabel()
-        label.numberOfLines = 0
+        label.numberOfLines = 2
         label.setTextWithStyle(
             text: """
                 Youtube로 이동하여 계속하세요.
@@ -39,51 +39,49 @@ class AuthenticationUIView {
         return label
     }()
     
+    let nameTextField: UITextField = {
+        var textField = AuthenticationTextField()
+        textField.placeholder = "이름을 입력해주세요."
+        return textField
+    }()
+    
+    let emailORPhoneTextField: UITextField = {
+        var textField = AuthenticationTextField()
+        textField.placeholder = "이메일 또는 휴대전화"
+        return textField
+    }()
+    
+    let passwordTextField: UITextField = {
+        var textField = AuthenticationTextField()
+        textField.placeholder = "비밀번호 입력"
+        return textField
+    }()
+    
     let nextButton: UIButton = {
         var button = AuthenticationButton()
-        button.setTitleWithStyle(title: "다음", size: 16, weight: .bold)
+        button.setTitleWithStyle(
+            title: "다음",
+            size: 14,
+            weight: .medium
+        )
         return button
     }()
     
-    func addSubView(of view: UIView) {
-        view.addSubview(googleImage)
-        view.addSubview(titleLabel)
-        view.addSubview(subTitleLabel)
-        view.addSubview(nextButton)
-    }
+    let addAuthenticationButton: UIButton = {
+        var button = AuthenticationButton()
+        button.backgroundColor = .clear
+        button.setTitleWithStyle(
+            title: "계정 만들기",
+            size: 14,
+            titleColor: .blue4285F4,
+            weight: .medium
+        )
+        return button
+    }()
     
-    func setLayout(of view: UIView) {
-        // Google ImageVIew
-        NSLayoutConstraint.activate([
-            googleImage.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 128),
-            googleImage.topAnchor.constraint(equalTo: view.topAnchor, constant: 110),
-//            googleImage.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -662),
-            googleImage.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -128)
-        ])
+    let checkBox: UIButton = {
+        var button = AuthenticationButton()
         
-        // TitleLabel
-        NSLayoutConstraint.activate([
-            titleLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 157),
-            titleLabel.topAnchor.constraint(equalTo: googleImage.bottomAnchor, constant: 23),
-//            titleLabel.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -615),
-            titleLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -157)
-        ])
-        
-        // Google ImageVIew
-        NSLayoutConstraint.activate([
-            subTitleLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 44),
-            subTitleLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 14),
-            subTitleLabel.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -555),
-            subTitleLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -44)
-        ])
-        
-        
-        // button set
-        NSLayoutConstraint.activate([
-            nextButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 279),
-            nextButton.topAnchor.constraint(equalTo: view.topAnchor, constant: 567),
-            nextButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -203),
-            nextButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -22)
-        ])
-    }
+        return button
+    }()
 }

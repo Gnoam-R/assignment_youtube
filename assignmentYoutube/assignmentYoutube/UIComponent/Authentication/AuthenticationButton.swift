@@ -36,7 +36,12 @@ class AuthenticationButton: UIButton {
         self.translatesAutoresizingMaskIntoConstraints = false
     }
     
-    func setTitleWithStyle(title: String, size: CGFloat, weight: FontWeight = .regualr) {
+    func setTitleWithStyle(
+        title: String,
+        size: CGFloat,
+        titleColor: UIColor = .white,
+        weight: FontWeight = .regualr
+    ) {
         let font: UIFont?
         
         switch weight {
@@ -49,6 +54,8 @@ class AuthenticationButton: UIButton {
         case .bold:
             font = .PretendardB(size: size.adjusted)
         }
+        
+        self.setTitleColor(titleColor, for: .normal)
         self.titleLabel?.font = font
         self.setTitle(title, for: .normal)
     }

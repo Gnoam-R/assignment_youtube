@@ -25,8 +25,6 @@ extension UIFont {
     }
     
     class func PretendardB(size: CGFloat) -> UIFont? {
-        let test = UIFont(name: "Pretendard-Bold", size: size)
-        print(test)
         return UIFont(name: "Pretendard-Bold", size: size)
     }
 }
