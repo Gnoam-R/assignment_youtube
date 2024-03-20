@@ -40,8 +40,8 @@ extension DoneAuthenticationViewController: BaseViewController {
     }
     
     @objc func setTapButton() {
-        let doneAuthenticationViewController = DoneAuthenticationViewController(view: _authenticationUIView)
-        navigationController?.pushViewController(doneAuthenticationViewController, animated: true)
+        let nextViewController = MainViewController()
+        navigationController?.pushViewController(nextViewController, animated: true)
     }
     
     private func customSubView() {

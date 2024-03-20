@@ -25,6 +25,7 @@ class LoginViewController: UIViewController {
         addView()
         setLayout()
         setTapNextButton()
+        setTapMakeAccountButton()
     }
     
     private func setTapNextButton() {
@@ -35,9 +36,22 @@ class LoginViewController: UIViewController {
         )
     }
     
+    private func setTapMakeAccountButton() {
+        _authenticationUIView.addAuthenticationButton.addTarget(
+            self,
+            action: #selector(setTapAccountButton),
+            for: .touchUpInside
+        )
+    }
+    
     @objc func setTapButton() {
         let doneAuthenticationViewController = DoneAuthenticationViewController(view: _authenticationUIView)
         navigationController?.pushViewController(doneAuthenticationViewController, animated: true)
+    }
+    
+    @objc func setTapAccountButton() {
+        let nextViewController = SigninViewController(view: _authenticationUIView)
+        navigationController?.pushViewController(nextViewController, animated: true)
     }
 }
 
